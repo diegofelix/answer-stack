@@ -106,8 +106,13 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+
+		// Champ Service Providers
+		'Champ\Providers\EntityServiceProvider',
+
 		// custom service providers
 		'Way\Generators\GeneratorsServiceProvider'
+
 	),
 
 	/*
