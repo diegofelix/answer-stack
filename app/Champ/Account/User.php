@@ -21,6 +21,13 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
     protected $hidden = array('password');
 
     /**
+     * The user can add points to himself
+     *
+     * @var array
+     */
+    protected $guarded = array('points');
+
+    /**
      * Get the unique identifier for the user.
      *
      * @return mixed
