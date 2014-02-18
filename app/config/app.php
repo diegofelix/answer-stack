@@ -111,8 +111,8 @@ return array(
 		'Champ\Providers\EntityServiceProvider',
 
 		// custom service providers
-		'Way\Generators\GeneratorsServiceProvider'
-
+		'Way\Generators\GeneratorsServiceProvider',
+		'Artdarek\OAuth\OAuthServiceProvider'
 	),
 
 	/*
@@ -179,6 +179,8 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 
+		// custom alias
+		'OAuth'           => 'Artdarek\OAuth\Facade\OAuth',
 	),
 
 );
